@@ -1,39 +1,33 @@
-# 🧰 Lesson 2: Play with Built-in Node Modules
+# 🚀 Lesson 1: Set Up Node.js and npm
 
-Node.js comes with powerful tools built-in. Let’s explore some of them!
+Welcome to your Node.js journey! In this first lesson, you'll learn how to get Node and npm working inside your Gitpod workspace.
 
 ## 🔧 What You’ll Do
 
-- Use `fs` to read and write files.
-- Explore the `path` module.
-- Use `os` to get system info.
+- Confirm Node.js and npm are installed.
+- Run your first `.js` file.
+- Explore the Node REPL (Read-Eval-Print Loop).
+
+## 🧠 Why It Matters
+
+Before you can build awesome apps, you need the tools! Node.js lets you run JavaScript outside the browser, and npm is your go-to for installing packages.
 
 ## ✅ Activity Instructions
 
-1. Create a new file called `modules.js`.
-2. Use `fs` to write a file:
+1. Open the terminal in Gitpod.
+2. Run `node -v` and `npm -v` — you should see versions appear.
+3. Create a file called `hello.js`.
+4. Add this:
 
    ```js
-   const fs = require('fs');
+   console.log("Hello from Node!");
 
-   fs.writeFileSync('message.txt', 'Learning Node is fun!');
+5. Run it with node hello.js.
 
-3. Use `os`:
+## 🎯 Success Criteria
 
-   ```js
-   const os = require('os');
-   
-console.log(os.platform(), os.homedir());
+*  You can run node and npm commands.
 
+* You created and ran a JS file using Node.
 
-# 🎯 Success Criteria
-
-* You used 2–3 built-in Node modules.
-
-* You understand that Node includes its own standard library.
-
-* You created a new file with code that runs and outputs something!
-
-# 🌟 Pro Tip
-
-Explore the Node.js documentation to discover more modules like http, events, and crypto.
+* You feel confident using the terminal!
