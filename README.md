@@ -18,10 +18,11 @@ Node.js comes with powerful tools built-in. Let’s explore some of them!
 
    fs.writeFileSync('message.txt', 'Learning Node is fun!');
 
-3. Use os:
+3. Use `os`:
 
    ```js
    const os = require('os');
+   
 console.log(os.platform(), os.homedir());
 
 
