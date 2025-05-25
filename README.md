@@ -1,4 +1,4 @@
-# 🚀 Lesson 1: Set Up Node.js and npm
+# 🚀 Set Up Node.js and npm
 
 Welcome to your Node.js journey! In this second activity, you'll learn how to get Node and npm working inside your Gitpod workspace.
 
